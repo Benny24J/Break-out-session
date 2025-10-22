@@ -67,11 +67,17 @@ class _SignupPageState extends State<SignupPage> {
             const SizedBox(height: 16),
 
             
-            PasswordTextfield(textEditingController: passwordController),
+            PasswordTextfield(
+              label: "Passowrd",
+              textEditingController: passwordController
+            ),
             const SizedBox(height: 16),
 
             
-            PasswordTextfield(textEditingController: confirmPasswordController),
+            PasswordTextfield(
+              label: "Confirm Password",
+              textEditingController: confirmPasswordController
+            ),
             const SizedBox(height: 16),
 
             
